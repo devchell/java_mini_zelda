@@ -6,13 +6,13 @@
 
 <p>Você pode navegar pelo arquivos e conferir meu código!</p>
 
-<p>
-  Para entrar em contato para quaisquer dúvidas pode me encontrar em: <br>
+
+Para entrar em contato para quaisquer dúvidas pode me encontrar em: <br>
 E-mail: devchell@outlook.com <br>
 WhatsApp/Telegram: (11) 9 8946-8955<br>
 Discord: Chell#0598<br>
 Instagram: @NerdChell<br>
-</p>
+
 
 <h3>En-US</h3>
 
@@ -20,10 +20,9 @@ Instagram: @NerdChell<br>
 
 <p>You can browse the files and check my code!</p>
 
-<p>
-  To get in touch with any queries you can find me at: <br>
+
+To get in touch with any queries you can find me at: <br>
 Email: devchell@outlook.com <br>
 WhatsApp/Telegram: (11) 9 8946-8955<br>
 Discord: Chell#0598<br>
 Instagram: @NerdChell<br>
-</p>
