@@ -1,0 +1,28 @@
+package zelda_mini_clone;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Rectangle;
+
+public class Bullet extends Rectangle {
+	
+	public int speed = 8;
+	
+	public int dir = 1;
+	
+	public Bullet(int x, int y) {
+		super(x, y, 5, 5);
+		this.dir = dir;
+		
+	}
+	
+	public void tick() {
+		x+=speed*dir;
+	}
+	
+	public void render(Graphics g) {
+		g.setColor(Color.RED);
+		g.fillOval(x, y, width, height);
+	}
+		
+}

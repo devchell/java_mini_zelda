@@ -1,0 +1,17 @@
+package teste_curso_games;
+
+public class Enemy {
+	
+	public int HP = 10;
+	public String enemType = "Minion";
+	public int atkDmg = 2;
+	
+	public void getDmg () {
+		HP--;
+	}
+	
+	public int getHP() {
+		return HP;
+	}
+
+}

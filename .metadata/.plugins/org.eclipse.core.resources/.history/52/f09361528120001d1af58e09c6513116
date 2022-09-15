@@ -1,0 +1,8 @@
+package teste_curso_games;
+
+public class ElfEnemy extends Enemy{
+	
+	
+	
+
+}

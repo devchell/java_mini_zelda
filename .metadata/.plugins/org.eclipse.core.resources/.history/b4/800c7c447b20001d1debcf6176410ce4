@@ -1,0 +1,11 @@
+package teste_curso_games;
+
+public class Game {
+	
+	public static void main (String[] args) {
+		String nome = "Chell";
+		System.out.println("Hello World!");
+		System.out.println(nome);
+	}
+
+}

@@ -1,0 +1,13 @@
+package teste_curso_games;
+
+public class Player {
+	
+	public int HP = 10;
+	public String name = "Chell";
+	
+	
+	public void damagePlayer() {
+		HP -= 1;
+	}
+
+}

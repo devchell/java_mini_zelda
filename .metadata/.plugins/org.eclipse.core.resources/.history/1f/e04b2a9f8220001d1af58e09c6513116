@@ -1,0 +1,89 @@
+package teste_curso_games;
+
+import java.util.ArrayList;
+
+public class Game {
+	
+	public static void main (String[] args) {
+/*		String nome = "Chell";
+		int idade = 20;
+		double peso = 80.2;
+		boolean tipo = true;
+		System.out.println("Hello World!");
+		System.out.println("Nome: " + nome);
+		System.out.println("Idade: " + idade + " anos");
+		System.out.println("Peso: " + peso + "kgs");
+		System.out.println("Humano: " + tipo);
+		
+		if(idade <= 20) {
+			System.out.println("A idade é: " + idade);
+		}
+		else {
+			System.out.println("A idade correta é: " + idade);
+		}
+		
+		if(nome.equals("Chell")) {
+			System.out.println("Nome está correto");
+		}
+		else {
+			System.out.println("Nome está incorreto");
+		}
+		
+		int contador = 1;
+		
+		while(contador <= 10) {
+			
+			System.out.println(contador);
+			contador++;
+		}
+		
+		for(int i = 0; i <= 10; i+=2) {
+			System.out.println(i);
+		} 
+		
+		Player player = new Player();
+		
+		System.out.println("Vida: " + player.HP);
+		
+		player.lostHP();
+		System.out.println("Vida: " + player.HP);
+		
+		player.gainHP();
+		player.gainHP();
+		System.out.println("Vida: " + player.HP);
+		
+		Player player = new Player();
+		ElfEnemy elf = new ElfEnemy(15);
+		
+		
+		elf.getDmg();
+		System.out.println(elf.getHP());*/
+		
+		Player player = new Player();
+		ArrayList<Enemy> enemys = new ArrayList<Enemy>();
+		
+		enemys.add(new ElfEnemy(100));
+		enemys.add(new ElfEnemy(100));
+		enemys.add(new ElfEnemy(100));
+		enemys.add(new ElfEnemy(100));
+		enemys.add(new ElfEnemy(100));
+		enemys.add(new ElfEnemy(100));
+		
+		for(int i = 0; i < enemys.size(); i++) {
+			Enemy localEnemy = enemys.get(i);
+			if (i == 0) {
+				localEnemy.getDmg();
+				System.out.println(localEnemy.HP);
+			}
+			else {
+				System.out.println(localEnemy.HP);
+			}
+		}
+		
+		
+		
+		
+
+	}
+
+}

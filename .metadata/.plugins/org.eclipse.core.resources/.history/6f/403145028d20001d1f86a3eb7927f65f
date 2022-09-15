@@ -1,0 +1,32 @@
+package zelda_mini_clone;
+
+import java.awt.Graphics;
+import java.util.ArrayList;
+import java.util.List;
+
+public class World {
+	
+	
+	public List<Blocks> blocks = new ArrayList<Blocks>();
+	
+	public World() {
+		for(int xx = 0; xx < 15; xx++) {
+			blocks.add(new Blocks(xx*32, 0));
+		}
+		for(int xx = 0; xx < 15; xx++) {
+			blocks.add(new Blocks(xx*32, 480 - 32));
+		}
+		for(int yy = 0; yy < 15; yy++) {
+			blocks.add(new Blocks(0, yy*32));
+		}
+		
+	}
+	
+	public void render(Graphics g) {
+		
+		for(int i = 0; i < blocks.size(); i++)
+			blocks.get(i).render(g);
+		
+	}
+
+}
